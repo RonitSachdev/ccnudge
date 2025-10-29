@@ -2,7 +2,7 @@
 
 > A simple CLI tool to get sound and desktop notifications for Claude Code events
 
-Get instant feedback when Claude Code triggers different events - with customizable sounds and desktop notifications for each event!
+Get instant feedback when Claude Code triggers different events - with customizable sounds and desktop notifications for each event! 
 
 ## Available Events
 
