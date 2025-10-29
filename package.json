@@ -1,0 +1,38 @@
+{
+  "name": "ccnudge",
+  "version": "1.0.0",
+  "description": "A CLI tool to easily configure sound and desktop notifications for Claude Code events",
+  "main": "index.js",
+  "bin": {
+    "ccnudge": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "postinstall": "node postinstall.js",
+    "preuninstall": "node preuninstall.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "notifications",
+    "sound",
+    "desktop-notifications",
+    "hooks",
+    "cli",
+    "ccnudge"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RonitSachdev/ccnudge.git"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "inquirer": "^8.2.6",
+    "node-notifier": "^10.0.1"
+  }
+}
