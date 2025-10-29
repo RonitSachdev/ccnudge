@@ -21,7 +21,7 @@
     "cli",
     "ccnudge"
   ],
-  "author": "",
+  "author": "Ronit Sachdev",
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
